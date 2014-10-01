@@ -2,9 +2,14 @@ body{background: url(stripes.png) repeat-x, url(background.jpg) no-repeat;
 	background-size: 520px 10px, cover; 
 }
 p{
-	
+
 }
 .break{color: #FC7071;
+
+}
+.button{width: :185px;
+		height: 60px;
+		margin-left: 150px;
 
 }
 a{
