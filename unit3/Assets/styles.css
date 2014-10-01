@@ -1,17 +1,31 @@
-body{background: url(stripes.png) repeat-x, url(background.jpg) no-repeat;
-	background-size: 520px 10px, cover; 
+body{
+	background: url("stripes.png") , url("background.jpg") #52596b;
+	background-repeat: repeat-x, no-repeat;
+	background-size:520px 10px, cover;
+	margin-top:250px; 
+	margin-left:200px;
+	color: white;
+	font-size:20px;
+	font-family: Helvetica, Arial, Sans-serif;
 }
 p{
+	font-size:20px;
+	line-height:24px;
 
 }
-.break{color: #FC7071;
+h1{
+	margin:0;
+	padding-bottom:20px;
+	width:146px;
+	height:44px;
 
 }
+hr{width:40px;
+	height:3px;
+	margin:0;
+	border: none;
+	background-color: #905d67;
+
+/*}
 .button{width: :185px;
-		height: 60px;
-		margin-left: 150px;
-
-}
-a{
-
-}
+		height: 60px; - - - > not sure if I need this */
