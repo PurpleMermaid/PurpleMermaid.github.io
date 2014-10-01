@@ -1,5 +1,5 @@
 body{background: url(stripes.png) repeat-x, url(background.jpg) no-repeat;
-
+	background-size: 520px 10px, cover; 
 }
 hr{
 
