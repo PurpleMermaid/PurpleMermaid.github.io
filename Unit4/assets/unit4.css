@@ -2,5 +2,33 @@ body{
 	background: url("Cranberry-Walnut-Bread.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10%;
+
+}
+#roundrect{
+	width: 30px;
+	color: #FFFFFF
+
+}
+#logo{
+	margin-bottom: 1%;
+}
+h1{
+	font-size: 170%;
+	font-family: 'Lato', helvetica, sans-serif;
+	font-weight: 200; 
+	color: #FFFFFF;
+}
+hr{
+	background-color: #FFFFFF;
+	border: none;
+  	width: 10%;
+  	height: 4px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+p{
 
 }
