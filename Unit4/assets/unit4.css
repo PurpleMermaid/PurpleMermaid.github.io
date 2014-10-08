@@ -8,7 +8,7 @@ body{
 
 }
 .brown-box{
-	background: rgba(159,146,134,.8);
+	background: rgba(159,146,134,.55);
 	width: 600px;
 	border-radius: 15px;
 	margin: auto;
