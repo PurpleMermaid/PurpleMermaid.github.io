@@ -7,9 +7,14 @@ body{
 	padding-top: 10%;
 
 }
-#roundrect{
-	width: 30px;
-	color: #FFFFFF
+.brown-box{
+	background-color: #9F9286;
+	width: 600px;
+	border-radius: 15px;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
 
 }
 #logo{
@@ -24,7 +29,7 @@ h1{
 hr{
 	background-color: #FFFFFF;
 	border: none;
-  	width: 10%;
+  	width: 15%;
   	height: 4px;
 	margin-top: 5%;
 	margin-bottom: 5%;
