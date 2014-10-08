@@ -1,5 +1,5 @@
 body{
-	background: url("Cranberry-Walnut-Bread.jpg") fixed;
+	background: url("Cranberry-Walnut-Bread_edit.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0px;
@@ -8,12 +8,13 @@ body{
 
 }
 .brown-box{
-	background-color: #9F9286;
-	width: 600px;
+	background: rgba(159,146,134,.8);
+	width: 500px;
 	border-radius: 15px;
 	margin: auto;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	
 
 
 }
@@ -31,9 +32,15 @@ hr{
 	border: none;
   	width: 15%;
   	height: 4px;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 8%;
+	margin-bottom: 8%;
 }
-p{
+.text{
+	margin: auto;
+	width: 400px;
+	font-size: 100%;
+	font-family: 'Lato', helvetica, sans-serif;
+	font-weight: 100;
+	color: #FFFFFF;
 
 }
