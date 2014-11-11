@@ -1,6 +1,6 @@
 body{
-	background: url("diagmonds.png"), url("old_moonW.png");
-	background-repeat: repeat-x;
+	background: url("old_moonW.png");
+	background-repeat: repeat-all;
 
 }
 
@@ -22,10 +22,9 @@ body{
 
 header{
 	font-family:'Maven Pro', sans-serif;
-	color:#FFFFFF;
-	font-weight:400;
-	font-size:35px;
-	padding:20px;
+	padding:50px;
+	background: url("diagmonds.png");
+	background-repeat: repeat-x;
 
 
 }
@@ -36,6 +35,9 @@ h1{
 	float: left;
 	margin-top: 40px;
 	padding-left: 15px;
+	font-size: 35px;
+	font-weight: 400px;
+	padding: 20px;
 	text-align: center;
 }
 
