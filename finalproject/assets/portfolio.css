@@ -3,3 +3,18 @@ body{
 	background-repeat: repeat-x;
 
 }
+header{
+	font-family: "brandon-grotesque", sans-serif;
+	color: #FFFFFF;
+	font-size: 50px;
+	padding: 20px;
+
+
+}
+
+nav{
+	font-family: "brandon-grotesque", sans-serif;
+	color: #FFFFFF;
+	font-size: 75%;
+
+}
