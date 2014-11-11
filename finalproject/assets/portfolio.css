@@ -8,7 +8,14 @@ body{
 	font-family:'Maven Pro', sans-serif;
 	color: #FFFFFF;
 	font-weight:400;
-	text-decoration: non;
+	text-decoration: none;
+
+}
+
+#logo{
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
 
 }
 
@@ -16,10 +23,22 @@ header{
 	font-family:'Maven Pro', sans-serif;
 	color:#FFFFFF;
 	font-weight:400;
-	font-size:50px;
+	font-size:45px;
 	padding:20px;
 
 
+}
+
+h1{
+	float: left;
+	margin-top: 35px;
+}
+
+li{
+	float: left;
+	padding:10px;
+	margin-top: 30px;
+	margin-left: 40px;
 }
 
 a{
@@ -33,5 +52,6 @@ nav{
 	color:#FFFFFF;
 	font-weight: 400;
 	font-size: 30px;
+	float:right;
 
 }
