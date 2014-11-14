@@ -78,21 +78,23 @@ nav a:hover{
 }
 
 .circular {
+	margin-top: 20px;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	/*background: url("assets/h_center.jpg") no-repeat;*/
+	background: url("h_center.jpg") no-repeat;
 	}
 
-.circle{
+.circular2 {
+	margin-top: 20px;
+	margin-right: 100px;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	/*background: url("assets/h_center.jpg") no-repeat;*/
-
-	}
+	background: url("handstack.png") no-repeat;
+	}*/
 
