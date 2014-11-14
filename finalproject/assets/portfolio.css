@@ -78,6 +78,7 @@ nav a:hover{
 }
 
 .circular {
+	float: left;
 	margin-top: 20px;
 	width: 300px;
 	height: 300px;
@@ -118,6 +119,17 @@ nav a:hover{
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url("install.jpg") no-repeat;
+	}
+
+.circular5 {
+	float:right;
+	margin-top: 20px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("flyer1.jpg") no-repeat;
 	}
 
 
