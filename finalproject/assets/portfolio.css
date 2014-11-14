@@ -88,13 +88,36 @@ nav a:hover{
 	}
 
 .circular2 {
+	float: right;
 	margin-top: 20px;
-	margin-right: 100px;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url("handstack.png") no-repeat;
-	}*/
+	}
+
+.circular3{
+		float: right;
+		margin-top: 20px;
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url("infograph.png") no-repeat;
+
+	}
+.circular4 {
+	float:right;
+	margin-top: 20px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("install.jpg") no-repeat;
+	}
+
 
