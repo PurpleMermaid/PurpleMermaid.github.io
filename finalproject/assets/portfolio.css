@@ -19,6 +19,7 @@ body{
 
 header{
 	font-family:'Maven Pro', sans-serif;
+	font-weight: 400;
 	padding: 10px;
 	height:100px;
 	width:100%; 
@@ -38,7 +39,7 @@ h1{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 35px;
-	font-weight: 400px;
+	font-weight: 700px;
 	display: inline-block;
 }
 
@@ -59,7 +60,6 @@ li{
 nav{
 	font-family:'Maven Pro', sans-serif;
 	color:#FFFFFF;
-	font-weight: 400;
 	font-size: 30px;
 	float:right;
 	padding-top: 33px;
@@ -76,10 +76,15 @@ nav a:hover{
 	color: 2487D1;
 
 }
+section{
+	width:1200;
+	height: 1200;
+
+}
 
 .circular {
-	float: left;
-	margin-top: 20px;
+	float: right;
+	margin: 2%;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
@@ -90,7 +95,7 @@ nav a:hover{
 
 .circular2 {
 	float: right;
-	margin-top: 20px;
+	margin: 2%;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
@@ -101,7 +106,7 @@ nav a:hover{
 
 .circular3{
 		float: right;
-		margin-top: 20px;
+		margin: 2%;
 		width: 300px;
 		height: 300px;
 		border-radius: 150px;
@@ -112,7 +117,7 @@ nav a:hover{
 	}
 .circular4 {
 	float:right;
-	margin-top: 20px;
+	margin-top: 2%;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
@@ -123,7 +128,7 @@ nav a:hover{
 
 .circular5 {
 	float:right;
-	margin-top: 20px;
+	margin: 2%;
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
@@ -131,5 +136,62 @@ nav a:hover{
 	-moz-border-radius: 150px;
 	background: url("flyer1.jpg") no-repeat;
 	}
+
+.circular6 {
+	float:right;
+	margin: 2%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("boombox.png") no-repeat;
+
+}
+
+.circular7{
+	float:right;
+	margin: 2%;
+	width: 300px;
+	height:300px;
+	border-radius:150px;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	background: url("Dc.png") no-repeat;
+
+}
+
+.circular8{
+	float: right;
+	margin: 2%;
+	width: 300px;
+	height: 300px;
+	border-radius:150px;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	background: url("joel.jpg") no-repeat;
+}
+
+.circular9{
+	float: right;
+	margin: 2%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px; 
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	background: url("type.jpg") no-repeat;
+
+}
+
+/*for the "me" page so far*/
+p{
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 400px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
 
 
