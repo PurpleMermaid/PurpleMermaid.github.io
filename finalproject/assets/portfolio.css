@@ -67,10 +67,10 @@ nav a:hover{
 	color: 2487D1;
 
 }
-/*everything below here
+/*everything below here*/
 .nav_sm{
 	display: none;
-}*/
+}
 .nav_sm ul{
 	list-style: none;
 }
@@ -202,6 +202,12 @@ p{
 	margin-top: 400px;
 	margin-left: 200px;
 	margin-right: 200px;
+}
+
+
+/* media querie #1*/
+
+@media screen and (max-width: 800px) {
 }
 
 
