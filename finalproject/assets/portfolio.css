@@ -51,8 +51,9 @@ nav{
 	letter-spacing: 1px;
 	color:#FFFFFF;
 	font-size: 14px;
-	float:right;
 	padding-top: 25px;
+	position: fixed;
+	float: right;
 
 
 }
@@ -107,7 +108,8 @@ section{
 	width:90%;
 	background: red;
 	margin:0 auto;
-	height:1000px;
+	padding-top: 40px;
+	height:72em;
 }
 
 figure {
@@ -119,15 +121,23 @@ figure {
 }	
 
 #c1 {
-	width: 300px;
-	height: 300px;
+	width: 18.75em;
+	height: 18.75em;
 	border-radius: 5px;
 	background: white;
 }
 
-#c1:hover{
-	background: url("handstack.png");
-	opacity: 1;
+#c1 img{
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+#c1 img.top:hover{
+	opacity:0;
+	border-radius: 5px;
 
 
 }
@@ -136,35 +146,30 @@ figure {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("handstack.png") no-repeat;
 	}
 
 #c3{
 		width: 300px;
 		height: 300px;
 		border-radius: 5px;
-		background: url("infograph.png") no-repeat;
 
 	}
 #c4 {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("install.jpg") no-repeat;
 	}
 
 #c5 {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("flyer1.jpg") no-repeat;
 	}
 
 #c6 {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("boombox.png") no-repeat;
 
 }
 
@@ -172,7 +177,6 @@ figure {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("Dc.png") no-repeat;
 
 }
 
@@ -180,14 +184,12 @@ figure {
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("joel.jpg") no-repeat;
 }
 
 #c9{
 	width: 300px;
 	height: 300px;
 	border-radius: 5px;
-	background: url("type.jpg") no-repeat;
 
 }
 
