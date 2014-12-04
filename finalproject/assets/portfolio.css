@@ -31,12 +31,6 @@ header{
 }
 
 
-.clearfix:after{
-	content:'';
-	display:block;
-	clear:both;
-}
-
 
 ul{
 	padding-right: 80px;
@@ -64,6 +58,9 @@ nav{
 
 
 }
+
+
+
 
 nav a{
 	text-decoration: none;
@@ -110,6 +107,13 @@ label {
 }
 
 /*and above here ^ is experimental, trying to figure out the hamburger menu*/
+
+
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
 
 section{
 	width:90%;
