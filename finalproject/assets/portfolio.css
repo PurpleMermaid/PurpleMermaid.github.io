@@ -34,7 +34,6 @@ header{
 
 ul{
 	padding-right: 80px;
-	margin-top: 0px;
 
 }
 li{
@@ -52,9 +51,10 @@ nav{
 	letter-spacing: 1px;
 	color:#FFFFFF;
 	font-size: 14px;
-	padding-top: 25px;
+	margin-left: 15px;
+	margin-top: 20px;
 	position: fixed;
-	float: right;
+	right:0;
 
 
 }
