@@ -64,6 +64,7 @@ nav{
 	margin-top: 20px;
 	position: fixed;
 	right:0;
+	z-index: 90;
 
 
 }
@@ -142,12 +143,12 @@ figure {
 
 #c1 {
 	border-radius: 5px;
-	margin: 1%;
+	margin: 0;
 }
 
 #c1 img{
-	margin: 1%;
-	width: 20%;
+	width: 28%;
+	margin: 0 1%;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -156,22 +157,24 @@ figure {
 }
 
 #c1 img.top:hover{
-	width: 20%;
-	margin: 1%;
+	width: 28%;
+	margin: 0 1%;
 	opacity:0;
 	border-radius: 5px;
 
 
 }
 
+
 #c2 {
 	border-radius: 5px;
+	margin: 0;
 	}
 
 
 #c2 img{
-	margin: 0% 20%;
-	width: 20%;
+	width: 28%;
+	margin: 0 31%;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -180,8 +183,8 @@ figure {
 }
 
 #c2 img.top:hover{
-	width: 20%;
-	margin: 0% 20%;
+	width: 28%;
+	margin: 0 31%;
 	opacity:0;
 	border-radius: 5px;
 
@@ -190,15 +193,15 @@ figure {
 
 #c3{
 		border-radius: 5px;
-		margin: 1%;
+		margin: 0;
 
 	}
 
 
 #c3 img{
+	margin: 0 61%;
+	width: 28%;
 	position: absolute;
-	width: 33.33%;
-	height: 18.75em;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
@@ -206,13 +209,14 @@ figure {
 }
 
 #c3 img.top:hover{
+	margin: 0 61%;
+	width: 28%;
 	opacity:0;
-	width: 33.33%;
-	height: 18.75em;
 	border-radius: 5px;
 
 
 }
+
 
 #c4 {
 	border-radius: 5px;
