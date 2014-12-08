@@ -34,8 +34,7 @@ header{
 	width:100%; 
 	margin:0;
 	background: url("diagmonds.png");
-	background-repeat: repeat-x;
-
+	background-repeat: repeat-x;=
 
 }
 
@@ -243,28 +242,119 @@ figure {
 }
 #c5 {
 	border-radius: 5px;
-	margin: 
+	margin: 0%;
 	}
+#c5 img{
+
+	margin: 30% 31%;
+	width: 28%;
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+#c5 img.top:hover{
+	margin: 30% 31%;
+	width: 28%;
+	opacity:0;
+	border-radius: 5px;
+}
 
 #c6 {
 	border-radius: 5px;
+	margin: 0%;
 
+}
+
+#c6 img{
+
+	margin: 30% 61%;
+	width: 28%;
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+#c6 img.top:hover{
+	margin: 30% 61%;
+	width: 28%;
+	opacity:0;
+	border-radius: 5px;
 }
 
 #c7{
 	border-radius: 5px;
+	margin: 0;
 
 }
 
+#c7 img{
+
+	margin: 60% 1%;
+	width: 28%;
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+#c7 img.top:hover{
+	margin: 60% 1%;
+	width: 28%;
+	opacity:0;
+	border-radius: 5px;
+}
+
 #c8{
+	border-radius: 5px;
+	margin: 0;
+}
+
+#c8 img{
+
+	margin: 60% 31%;
+	width: 28%;
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+#c8 img.top:hover{
+	margin: 60% 31%;
+	width: 28%;
+	opacity:0;
 	border-radius: 5px;
 }
 
 #c9{
 	border-radius: 5px;
+	margin: 0;
 
 }
 
+#c9 img{
+
+	margin: 60% 61%;
+	width: 28%;
+	position: absolute;
+	border-radius: 5px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+#c9 img.top:hover{
+	margin: 60% 61%;
+	width: 28%;
+	opacity:0;
+	border-radius: 5px;
+}
 
 
 /*for the "me" page so far*/
