@@ -356,23 +356,14 @@ figure {
 	border-radius: 5px;
 }
 
-.clearfix:after{
-	content:'';
-	display:block;
-	clear:both;
-}
-
 footer{
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-weight: 200;
 	letter-spacing: 1px;
 	color:#FFFFFF;
 	font-size: 14px;
-	position:fixed; 
-	bottom:0;
 
 }
-
 /*for the "me" page so far*/
 
 
