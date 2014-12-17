@@ -147,7 +147,7 @@ figure {
 
 #c1 img{
 	width: 28%;
-	margin: 0 1%;
+	margin: 0em 1em;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -157,7 +157,7 @@ figure {
 
 #c1 img.top:hover{
 	width: 28%;
-	margin: 0 1%;
+	margin: 0em 1em;
 	opacity:0;
 	border-radius: 5px;
 
@@ -173,7 +173,7 @@ figure {
 
 #c2 img{
 	width: 28%;
-	margin: 0 31%;
+	margin: 0em 18.75em;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -183,7 +183,7 @@ figure {
 
 #c2 img.top:hover{
 	width: 28%;
-	margin: 0 31%;
+	margin: 0em 18.75em;
 	opacity:0;
 	border-radius: 5px;
 
@@ -198,8 +198,8 @@ figure {
 
 
 #c3 img{
-	margin: 0 61%;
 	width: 28%;
+	margin: 0em 37em;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -208,8 +208,8 @@ figure {
 }
 
 #c3 img.top:hover{
-	margin: 0 61%;
 	width: 28%;
+	margin: 0em 37em;
 	opacity:0;
 	border-radius: 5px;
 
