@@ -128,7 +128,8 @@ section{
 	width:90%;
 	margin:0 auto;
 	padding-top: 25px;
-	height:51em;
+	background-color: blue;
+	height:57em;
 }
 
 figure {
@@ -364,6 +365,7 @@ footer{
 	margin-top: 2em;
 	margin-left: 3em;
 	margin-bottom: 2em;
+	bottom: 0;
 	z-index: 99;
 
 
