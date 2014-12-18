@@ -127,9 +127,8 @@ label {
 section{
 	width:90%;
 	margin:0 auto;
-	padding-top: 40px;
-	height:72em;
-	background: blue;
+	padding-top: 25px;
+	height:51em;
 }
 
 figure {
@@ -147,7 +146,7 @@ figure {
 
 #c1 img{
 	width: 28%;
-	margin: 0em 1em;
+	margin: 0 1%;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -157,7 +156,7 @@ figure {
 
 #c1 img.top:hover{
 	width: 28%;
-	margin: 0em 1em;
+	margin: 0 1%;
 	opacity:0;
 	border-radius: 5px;
 
@@ -173,7 +172,7 @@ figure {
 
 #c2 img{
 	width: 28%;
-	margin: 0em 18.75em;
+	margin: 0 31%;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -183,7 +182,7 @@ figure {
 
 #c2 img.top:hover{
 	width: 28%;
-	margin: 0em 18.75em;
+	margin: 0 31%;
 	opacity:0;
 	border-radius: 5px;
 
@@ -198,8 +197,8 @@ figure {
 
 
 #c3 img{
+	margin: 0 61%;
 	width: 28%;
-	margin: 0em 37em;
 	position: absolute;
 	border-radius: 5px;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -208,8 +207,8 @@ figure {
 }
 
 #c3 img.top:hover{
+	margin: 0 61%;
 	width: 28%;
-	margin: 0em 37em;
 	opacity:0;
 	border-radius: 5px;
 
@@ -294,7 +293,7 @@ figure {
 
 #c7 img{
 
-	margin: 60% 1%;
+	margin: 60% 1% 2%;
 	width: 28%;
 	position: absolute;
 	border-radius: 5px;
@@ -304,7 +303,7 @@ figure {
 }
 
 #c7 img.top:hover{
-	margin: 60% 1%;
+	margin: 60% 1% 2%;
 	width: 28%;
 	opacity:0;
 	border-radius: 5px;
@@ -317,7 +316,7 @@ figure {
 
 #c8 img{
 
-	margin: 60% 31%;
+	margin: 60% 31% 2%;
 	width: 28%;
 	position: absolute;
 	border-radius: 5px;
@@ -327,7 +326,7 @@ figure {
 }
 
 #c8 img.top:hover{
-	margin: 60% 31%;
+	margin: 60% 31% 2%;
 	width: 28%;
 	opacity:0;
 	border-radius: 5px;
@@ -341,7 +340,7 @@ figure {
 
 #c9 img{
 
-	margin: 60% 61%;
+	margin: 60% 61% 2%;
 	width: 28%;
 	position: absolute;
 	border-radius: 5px;
@@ -350,7 +349,7 @@ figure {
 	-o-transition: opacity 1s ease-in-out;
 }
 #c9 img.top:hover{
-	margin: 60% 61%;
+	margin: 60% 61% 2%;
 	width: 28%;
 	opacity:0;
 	border-radius: 5px;
@@ -362,6 +361,11 @@ footer{
 	letter-spacing: 1px;
 	color:#FFFFFF;
 	font-size: 14px;
+	margin-top: 2em;
+	margin-left: 3em;
+	margin-bottom: 2em;
+	z-index: 99;
+
 
 }
 /*for the "me" page so far*/
@@ -376,8 +380,10 @@ footer{
 }
 
 #meimg{
+	display: block;
 	width:300px;
 	margin: 0 auto;
+	border-radius: 5px;
 }
 
 p{
@@ -386,6 +392,18 @@ p{
 	font-size: 16px;
 	width: 70%;
 	margin: 10 auto;
+}
+
+/*harbor center page*/
+
+.sectionh{
+	width:100%;
+	background: white;
+	margin:0 auto;
+	margin-top: 1em;
+	padding-top: 20px;
+	height:40em;
+
 }
 
 
