@@ -124,237 +124,92 @@ label {
 	clear:both;
 }
 
+/*---------------- BEGIN CHANGES! ----------------*/
+
+/* the position of section is relative, so that the children (figures) have a reference
+of boundaries when we set their position to relative. you were right to have height
+at 100%. */
+
 section{
 	width:90%;
 	margin:0 auto;
 	padding-top: 25px;
 	background-color: blue;
-	height:140%;
+	position: relative;
+	height: 100%;
 }
 
 figure {
 	display: block;
 	float: left;
-	margin: 1em;
-	border-radius: 0.5em;
-	cursor:"pointer;"
+	cursor:pointer;
 }	
 
-#c1 {
-	border-radius: 5px;
-	margin: 0;
-}
+/* figure img{} controls all images within a figure. it sets the position to absolute 
+for both top & bottom images, as well as the width for both images.
+it also adds a border radius to both images.*/
 
-#c1 img{
+figure img{
 	width: 28%;
-	margin: 0 1%;
 	position: absolute;
 	border-radius: 5px;
+	margin:0;
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
 	-o-transition: opacity 1s ease-in-out;
 }
 
-#c1 img.top:hover{
-	width: 28%;
-	margin: 0 1%;
+
+/* figure img:hover{} replaces your .top class, but you only have to add it to your 
+css once. it affects all images in a figure, but only when the user hovers.
+the only property we need to change for hover is the opacity. */
+
+figure img:hover{
 	opacity:0;
-	border-radius: 5px;
-
-
 }
 
+
+/* these are the id's for each thumbnail. the only reason we need these id's
+is because the position of our thumbnails is absolute. doing this with margins
+is a cheat, but I need to keep researching a way to use an absolute position 
+for mulitiple elements in the same parent container. */
+
+/*you'll have to play with the numbers to get them aligned properly.*/
+
+/* margin shorthand is: top, right, bottom, left */
+
+
+#c1 {
+	margin:0 0 0 4%;
+}
 
 #c2 {
-	border-radius: 5px;
-	margin: 0;
-	}
-
-
-#c2 img{
-	width: 28%;
-	margin: 0 31%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-
-#c2 img.top:hover{
-	width: 28%;
-	margin: 0 31%;
-	opacity:0;
-	border-radius: 5px;
-
-
+	margin: 0 2% 0 36%;
 }
 
 #c3{
-		border-radius: 5px;
-		margin: 0;
-
-	}
-
-
-#c3 img{
-	margin: 0 61%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
+	margin: 0 2% 0 68%;
 }
 
-#c3 img.top:hover{
-	margin: 0 61%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-
-
+#c4{
+	margin: 32% 0 0 4%;
 }
 
-
-#c4 {
-	border-radius: 5px;
-	margin: 0%;
-	}
-
-
-#c4 img{
-
-	margin: 30% 1%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
+#c5{
+	margin: 32% 2% 0 32%;
 }
 
-#c4 img.top:hover{
-	margin: 30% 1%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-}
-#c5 {
-	border-radius: 5px;
-	margin: 0%;
-	}
-#c5 img{
-
-	margin: 30% 31%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-
-#c5 img.top:hover{
-	margin: 30% 31%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-}
-
-#c6 {
-	border-radius: 5px;
-	margin: 0%;
-
-}
-
-#c6 img{
-
-	margin: 30% 61%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-
-#c6 img.top:hover{
-	margin: 30% 61%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
+#c6{
+	margin: 32% 0 0 30%;
 }
 
 #c7{
-	border-radius: 5px;
-	margin: 0;
-
+	margin: 63% 0 0 0;
 }
 
-#c7 img{
+/* you can add more id's for more thumbs as needed. */
 
-	margin: 60% 1% 2%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-
-#c7 img.top:hover{
-	margin: 60% 1% 2%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-}
-
-#c8{
-	border-radius: 5px;
-	margin: 0;
-}
-
-#c8 img{
-
-	margin: 60% 31% 2%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-
-#c8 img.top:hover{
-	margin: 60% 31% 2%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-}
-
-#c9{
-	border-radius: 5px;
-	margin: 0;
-
-}
-
-#c9 img{
-
-	margin: 60% 61% 2%;
-	width: 28%;
-	position: absolute;
-	border-radius: 5px;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-}
-#c9 img.top:hover{
-	margin: 60% 61% 2%;
-	width: 28%;
-	opacity:0;
-	border-radius: 5px;
-}
+/*---------------- END CHANGES! ----------------*/
 
 footer{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -365,10 +220,7 @@ footer{
 	margin-top: 2em;
 	margin-left: 3em;
 	margin-bottom: 2em;
-	bottom: 0;
-	z-index: 99;
-
-
+	position: relative;
 }
 /*for the "me" page so far*/
 

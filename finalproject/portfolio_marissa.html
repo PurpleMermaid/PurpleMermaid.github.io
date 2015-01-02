@@ -41,34 +41,67 @@
 
 <!--section contains my thumbnails and figure is my thumbnail-->
 	<section>
-		
-		<figure id="c1" onclick="window.location='harbor_center.html'"><img class= "top" id= "c1" src="assets/handstack.png">
+
+	<!-- Here's the old way you were calling your figure. The figure and both of the 
+	 	 images were referencing the #c1 style, and both images were referencing
+	 	 the top class. This is redundant.-->
+
+<!-- 		<figure id="c1" onclick="window.location='harbor_center.html'">
+		<img class= "top" id= "c1" src="assets/handstack.png">
 		<img src="assets/h_center.jpg" class="top" id="c1">
+		</figure> -->
+
+
+
+		<!-- Here's the new way. The figure references the #c1 ID (used only 
+		once in the whole page) which only controls the margin. The position
+		for the images is set in the figure img{ } descendent selector.-->
+		
+		<figure id="c1" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c2" onclick="window.location='http://google.com'"><img class="top" id= "c1" src="assets/h_center.jpg"> <img class="top" src="assets/handstack.png">
+		<figure id="c2" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c3" onclick="window.location='info_g.html'"><img id= "c3" src="assets/h_center.jpg" ><img src="assets/infograph.png" class="top" id="c3">
+		<figure id="c3" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c4" onclick="window.location='http://google.com'"><img id="c4" src="assets/infograph.png"> <img class="top" src="assets/install.jpg">
+		 <figure id="c4" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c5" style="cursor: pointer;" onclick="window.location='http://google.com'"><img src="assets/install.jpg" id="c5"> <img class="top" src="assets/flyer1.jpg">
+		<figure id="c5" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c6" onclick="window.location='http://google.com'";> <img src="assets/install.jpg" id="c5"><img src="assets/boombox.png" class="top" id="c6">
+		<figure id="c6" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c7" onclick="window.location='http://google.com'";><img src="assets/install.jpg" id="c5"><img class= "top" src="assets/Dc.png" id="c7">
+		<figure id="c7" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/handstack.png">
 		</figure>
 
-		<figure id="c8" onclick="window.location='http://google.com'";><img src="assets/install.jpg" id="c5"><img src="assets/joel.jpg" class= "top" id="c8">
+		<!--<figure id="c8" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
 		</figure>
 
-		<figure id="c9" onclick="window.location='http://google.com'";><img src="assets/install.jpg" id="c5"><img src="assets/type.jpg" class="top" id="c9">
-		</figure>
+		<figure id="c9" onclick="window.location='harbor_center.html'">
+		<img src="assets/handstack.png">
+		<img src="assets/h_center.jpg">
+		</figure> -->
+
 	</section>
 	<div class="clearfix"> </div>
 
