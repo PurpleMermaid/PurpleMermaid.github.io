@@ -16,7 +16,7 @@ body{
 #logo{
 	float: left;
 	margin-top: 5px;
-	margin-left: 25px;
+	margin-left: 4.5em;
 	position: fixed;
 	z-index: 99;
 	
@@ -34,7 +34,7 @@ header{
 	width:100%; 
 	margin:0;
 	background: url("diagmonds.png");
-	background-repeat: repeat-x;=
+	background-repeat: repeat-x;
 
 }
 
@@ -55,7 +55,7 @@ li{
 
 nav{
 	font-family: 'Montserrat Alternates', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 	letter-spacing: 1px;
 	color:#FFFFFF;
 	font-size: 14px;

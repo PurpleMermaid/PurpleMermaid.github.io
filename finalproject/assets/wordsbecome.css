@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+body{
+	font-size: 16px;
+  /* Location of the image */
+  background-image: url(assets/words.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+}
+
+#logo{
+	float: left;
+	margin-top: 5px;
+	margin-left: 4.5em;
+	position: fixed;
+	z-index: 99;
+	
+
+}
+
+#logo:hover{
+	opacity: .8;
+
+}
+
+header{
+	padding: 10px;
+	height:80px;
+	width:100%; 
+	margin:0;
+
+}
+
+
+
+ul{
+	padding-right: 80px;
+
+}
+li{
+	float: left;
+	padding-left:40px;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+	
+	
+}
+
+nav{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 200;
+	letter-spacing: 1px;
+	color:#FFFFFF;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-top: 20px;
+	position: fixed;
+	right:0;
+	z-index: 90;
+
+
+}
+
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #56C3B6;
+
+
+}
+
+
+
+
+
+/* media querie #1*/
+
+@media screen and (max-width: 800px) {
+}
+
+
