@@ -6,8 +6,6 @@
 
 
 body{
-	background: url("diagmonds.png");
-	background-repeat: repeat-all;
 	clear: both;
 	font-size: 16px;
 
@@ -17,7 +15,6 @@ body{
 	float: left;
 	margin-top: 5px;
 	margin-left: 4.5em;
-	position: fixed;
 	z-index: 99;
 	
 
@@ -34,7 +31,7 @@ header{
 	width:100%; 
 	margin:0;
 	background: url("diagmonds.png");
-	background-repeat: repeat-x;=
+	background-repeat: repeat-x;
 
 }
 
@@ -61,7 +58,7 @@ nav{
 	font-size: 14px;
 	margin-left: 15px;
 	margin-top: 20px;
-	position: fixed;
+	float: right;
 	right:0;
 	z-index: 90;
 
@@ -152,13 +149,6 @@ section img{
 	display: block;
 	padding:20px;
 	margin: 0 auto;
-}
-
-#meimg{
-	display: block;
-	width:300px;
-	margin: 0 auto;
-	border-radius: 5px;
 }
 
 footer{
