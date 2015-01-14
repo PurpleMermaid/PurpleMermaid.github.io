@@ -124,12 +124,41 @@ label {
 	clear:both;
 }
 
-section{
+.wrapper{
 	width:100%;
-	background: white;
-	margin:0 auto;
-	padding-top: 40px;
-	height:40em;
+	background: #FFFFFF;
+	height: auto;
+}
+main{
+	display: block;
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+}
+aside{
+	display: block;
+	float: left;
+	width: 45%;
+	padding: 1em;
+}
+
+section{
+	display: block;
+	float: right;
+	width: 55%;
+}
+
+section img{
+	display: block;
+	padding:20px;
+	margin: 0 auto;
+}
+
+#meimg{
+	display: block;
+	width:300px;
+	margin: 0 auto;
+	border-radius: 5px;
 }
 
 footer{
@@ -149,7 +178,6 @@ h1{
 	float:left;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 1.75em;
-	margin-left: 3.2em;
 
 }
 
@@ -157,7 +185,6 @@ p{
 	font-family: 'Droid Serif', serif;
 	font-weight: 400;
 	font-size: 16px;
-	width: 45%;
 	float: left;
 	padding-top: 1em;
 }
@@ -169,7 +196,7 @@ p{
 }
 
 
-#fly1{
+/*#fly1{
 	float: right;
 	border-style: solid;
 	border-color: black;
@@ -191,7 +218,7 @@ p{
 }
 #back{
 	float: right;
-}
+}*/
 
 
 

@@ -1,33 +1,5 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-
-
 body{
 	font-size: 16px;
-  /* Location of the image */
-  background-image: url(assets/words.jpg);
-  
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-
 }
 
 #logo{
@@ -94,6 +66,32 @@ nav a:hover{
 
 
 }
+
+
+		
+		img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+		
+		#page-wrap { position: relative; width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
 
 
 
