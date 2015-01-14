@@ -36,6 +36,7 @@ header{
 	background-repeat: repeat-x;
 	position: fixed;
 
+
 }
 
 
@@ -132,7 +133,7 @@ label {
 main{
 	display: block;
 	position: relative;
-	width: 85%;
+	width: 90%;
 	margin: 0 auto;
 }
 aside{
@@ -152,6 +153,10 @@ section img{
 	display: block;
 	padding:20px;
 	margin: 0 auto;
+}
+
+.rt{
+	width: 5%;
 }
 
 footer{
