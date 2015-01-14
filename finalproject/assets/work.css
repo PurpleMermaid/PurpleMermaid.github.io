@@ -6,6 +6,7 @@
 
 
 body{
+	background-repeat: repeat-all;
 	clear: both;
 	font-size: 16px;
 
@@ -15,6 +16,7 @@ body{
 	float: left;
 	margin-top: 5px;
 	margin-left: 4.5em;
+	position: fixed;
 	z-index: 99;
 	
 
@@ -32,6 +34,7 @@ header{
 	margin:0;
 	background: url("diagmonds.png");
 	background-repeat: repeat-x;
+	position: fixed;
 
 }
 
@@ -58,7 +61,7 @@ nav{
 	font-size: 14px;
 	margin-left: 15px;
 	margin-top: 20px;
-	float: right;
+	position: fixed;
 	right:0;
 	z-index: 90;
 
