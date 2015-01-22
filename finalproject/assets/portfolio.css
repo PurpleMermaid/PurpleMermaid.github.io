@@ -130,19 +130,26 @@ label {
 of boundaries when we set their position to relative. you were right to have height
 at 100%. */
 
-section{
+main{
 	width:90%;
 	margin:0 auto;
-	padding-top: 25px;
+	padding-top: 0;
 	background-color: blue;
-	position: relative;
-	height: 100%;
+	overflow: auto;
 }
 
 figure {
 	display: block;
 	float: left;
 	cursor:pointer;
+	width:28%;
+	min-height: 100%;
+	overflow-y: hidden;
+	position: relative;
+	margin-left:2.66666666667%;
+	margin-right:2.66666666667%;
+	margin-top: 1%;
+	margin-bottom: 1%; 
 }	
 
 /* figure img{} controls all images within a figure. it sets the position to absolute 
@@ -150,7 +157,7 @@ for both top & bottom images, as well as the width for both images.
 it also adds a border radius to both images.*/
 
 figure img{
-	width: 28%;
+	width: 100%;
 	position: absolute;
 	border-radius: 5px;
 	margin:0;
