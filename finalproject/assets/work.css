@@ -136,18 +136,36 @@ main{
 	margin: 0 auto;
 	overflow:hidden;
 }
+#showcase-nav{
+	left: 15;
+	position: fixed;
+	display: block;
+	margin-top: 15%;
+	width: 5%;
+	z-index: 9999;
 
+}
+#showcase-nav-rt{
+	right: 30;
+	position: fixed;
+	display: block;
+	margin-top: 15%;
+	width: 5%;
+	z-index: 9999;
+
+
+}
 aside{
 	margin-top: 10%;
+	margin-left: 5%;
 	padding: 3px;
-	width:20%;
-	float:left;
+	width:25%;
 	position:fixed;
 }
 
 section{
 	margin-top: 10%;
-	width:70%;
+	width:65%;
 	float:right;
 }
 
@@ -160,13 +178,7 @@ section img{
 	overflow: hidden;
 }
 
-#showcase-nav{
-	position: absolute;
-	margin-top: 10%;
-	width: 5%;
-	z-index: 9999;
 
-}
 
 footer{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -200,6 +212,10 @@ p{
 	content:'';
 	display:block;
 	clear:both;
+}
+
+footer{color: black;
+
 }
 
 
