@@ -248,6 +248,27 @@ footer{color: black;
 /* media querie #1*/
 
 @media screen and (max-width: 800px) {
+
+nav{
+	display: none;
+}
+
+.nav_sm{
+	display: block;
+	float: right;
+	z-index: 99;
+}
+
+@media screen and (max-width: 400px) {
+
+nav{
+	display: none;
+}
+
+.nav_sm{
+	display: block;
+	float: right;
+	z-index: 99;
 }
 
 

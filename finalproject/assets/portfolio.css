@@ -250,6 +250,18 @@ p{
 /* media querie #1*/
 
 @media screen and (max-width: 800px) {
+
+nav{
+	display: none;
+}
+
+.nav_sm{
+	display: block;
+	float: right;
+
+}
+
+
 }
 
 
