@@ -259,6 +259,19 @@ nav{
 	z-index: 99;
 }
 
+/* arranging the aside/section in 1 column */
+aside{
+	width:100%;
+	float:none;
+	position: relative;
+}
+
+section{
+	width:100%;
+	float:none;
+	position: relative;
+}
+
 @media screen and (max-width: 400px) {
 
 nav{
