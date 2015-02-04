@@ -39,13 +39,12 @@ header{
 }
 
 
-/* these were previously ul and li-- they were overriding your ul and li in your media query */
-nav ul{
+
+ul{
 	padding-right: 80px;
 
 }
-
-nav li{
+li{
 	float: left;
 	padding-left:40px;
 	/*padding-top: 30px;
@@ -88,23 +87,20 @@ nav a:hover{
 }
 .nav_sm ul{
 	list-style: none;
-	width:100%;
 }
 .nav_sm li{
 	padding:1em;
-
 }
 .nav_sm li a{
 	text-decoration: none;
 	color: #66cccc;
-	display: block;
 }
 .nav_sm label img{
-/*	margin-right: 3em;*/
-right:0;
+	margin-right: 3em;
 }
 .nav_sm li a:hover{
 	text-decoration: none;
+	background-color: red;
 }
 
 label {
@@ -263,11 +259,6 @@ nav{
 .nav_sm{
 	display: block;
 	float: right;
-}
-
-/* stacking the li items vertically */
-.nav_sm li{
-	display: block;
 }
 
 
