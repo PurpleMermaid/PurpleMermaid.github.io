@@ -89,7 +89,7 @@ nav a:hover{
 	list-style: none;
 }
 .nav_sm li{
-	padding:1em;
+	padding:3em;
 }
 .nav_sm li a{
 	text-decoration: none;
@@ -100,7 +100,6 @@ nav a:hover{
 }
 .nav_sm li a:hover{
 	text-decoration: none;
-	background-color: red;
 }
 
 label {
