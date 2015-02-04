@@ -90,7 +90,7 @@ nav a:hover{
 	list-style: none;
 }
 .nav_sm li{
-	padding:1em;
+	padding:.5em;
 }
 .nav_sm li a{
 	text-decoration: none;
@@ -282,6 +282,57 @@ nav{
 	display: block;
 	float: right;
 	z-index: 99;
+
+
+	.wrapper{
+	width:100%;
+	background: #FFFFFF;
+	height: auto;
 }
+main{
+	background:#ffffff;
+	width:90%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+#showcase-nav{
+	left: 15;
+	position: fixed;
+	display: block;
+	margin-top: 15%;
+	width: 5%;
+	z-index: 9999;
+
+}
+#showcase-nav-rt{
+	right: 30;
+	position: fixed;
+	display: block;
+	margin-top: 15%;
+	width: 5%;
+	z-index: 9999;
+
+
+}
+aside{
+	display: none;
+}
+
+section{
+	display: none;
+}
+
+
+section img{
+	margin-top: 10%;
+	display: block;
+	padding:20px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+}
+
+
 
 
