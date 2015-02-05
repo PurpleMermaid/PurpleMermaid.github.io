@@ -39,12 +39,14 @@ header{
 }
 
 
-
-ul{
+/* these were previously ul and li-- they were overriding your ul and li in your media query */
+/* this only affects the large nav */
+nav ul{
 	padding-right: 80px;
 
 }
-li{
+
+nav li{
 	float: left;
 	padding-left:40px;
 	/*padding-top: 30px;
@@ -87,21 +89,24 @@ nav a:hover{
 }
 .nav_sm ul{
 	list-style: none;
+	width:100%;
 }
 .nav_sm li{
-	padding:3em;
+	padding:1em;
+
 }
 .nav_sm li a{
 	text-decoration: none;
 	color: #66cccc;
-
+	display: block;
 }
-.nav_sm label img{
+/*.nav_sm label img{
 	margin-right: 3em;
-}
+	right:20px;
+}*/
+
 .nav_sm li a:hover{
 	text-decoration: none;
-	background-color: red;
 }
 
 label {
@@ -285,7 +290,7 @@ p{
 }
 
 /* 1-column MQ */
-@media screen and (min-width: 320px) and (max-width: 800px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
 
 nav{
 	display: none;
@@ -304,3 +309,5 @@ nav{
 
 
 }
+
+
